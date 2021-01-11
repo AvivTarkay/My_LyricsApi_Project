@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="header">
+        <h2>All The Lyrics In One Place</h2>
+        <label for="Singer">Singer:</label>
+        <label for="songName" id="songName">Song Name:</label><br>
+        <input type="text" name="Singer" id="singerInput">
+        <input type="text" name="Song" id="songInput">
+        <button onclick="searchForLyrics(singerInput.value,songInput.value)">Search</button>    
+        </div>
+       </div>   
+    <script src="main.js"></script>
+</body>
+
+</html>

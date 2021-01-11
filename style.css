@@ -1,0 +1,81 @@
+body {
+	padding: 0px;
+	margin-top: 40px;
+	background-color: steelblue;
+}
+#mainDiv {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	justify-content: space-around;
+	/* align-content: center; */
+	width: 100%;
+	height: 400px;
+	color: #fff;
+	background: url(./img/crowed.jpg) center/cover;
+	background-color: mediumorchid;
+}
+#header > h2 {
+	margin: 0;
+	position: relative;
+	top: -120px;
+	font-size: 60px;
+	font-weight: bolder;
+}
+#header {
+	font-size: 20px;
+	font-weight: bold;
+	height: 100px;
+	align-self: center;
+}
+input[type="text"] {
+	font-size: 15px;
+	height: 30px;
+	width: 200px;
+}
+#songName {
+	position: relative;
+	left: 17%;
+}
+button {
+	width: 80px;
+	height: 35px;
+}
+#loading {
+	/* background-color: mediumvioletred; */
+	text-align: center;
+	/* align-self: auto; */
+}
+#gifImg {
+	width: 40%;
+}
+#resultDiv {
+	box-shadow: 0px 0px 80px 60px #78cad8;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	text-align: center;
+	width: auto;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 20px;
+}
+label {
+	font-size: 30px;
+	color: whitesmoke;
+}
+#lyricsRes {
+	height: 540px;
+	overflow-y: scroll;
+}
+#lyricsRes::-webkit-scrollbar {
+	display: none;
+}
+#lyricsRes {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
